@@ -40,5 +40,14 @@ public class Main {
         System.out.println("Long Max.Value over here: " + myMaxLongValue);
         long bigLongLiteralValue = 2_147_483_647_234L;
         System.out.println(bigLongLiteralValue);
+        
+        /*Casting:
+        * Casting is the process of converting a number from one Datatype to another Datatype.
+        * What we do is put the data type we want in parenthesis before the rest as follows below: */
+
+        System.out.println((byte)(myMinByteValue/2));
+
+        short myNewShortValue = (short)(myMinShortValue / 2);
+        System.out.println(myNewShortValue);
     }
 }

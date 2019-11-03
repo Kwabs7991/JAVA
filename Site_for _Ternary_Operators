@@ -1,0 +1,12 @@
+https://alvinalexander.com/java/edu/pj/pj010018
+
+
+>>>>Simple ternary operator examples<<<<<
+
+One use of the Java ternary operator is to assign the minimum (or maximum) value of two variables to a third variable, essentially replacing a Math.min(a,b) or Math.max(a,b) method call. Here’s an example that assigns the minimum of two variables, a and b, to a third variable named minVal:
+
+minVal = (a < b) ? a : b;
+In this code, if the variable a is less than b, minVal is assigned the value of a; otherwise, minVal is assigned the value of b. Note that the parentheses in this example are optional, so you can write that same statement like this:
+
+minVal = a < b ? a : b;
+I think the parentheses make the code a little easier to read, but again, they’re optional, so use whichever syntax you prefer.
